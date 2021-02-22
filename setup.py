@@ -6,7 +6,7 @@ setup(
     description="Python web app running Flask",
     author="OneClickStack",
     license="unlicense",
-    packages=["app"],
+    packages=["src"],
     install_requires=["flask", "gunicorn"],
     zip_safe=False,
 )
