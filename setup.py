@@ -7,6 +7,6 @@ setup(
     author="OneClickStack",
     license="unlicense",
     packages=["app"],
-    install_requires=["flask"],
+    install_requires=["flask", "gunicorn"],
     zip_safe=False,
 )
